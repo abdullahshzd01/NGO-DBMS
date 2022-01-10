@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Class Assignment Form</title>
+    </head>
+
+    <body>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="../DB Project/homepage.html"><h1 align="center">Hamaray Bachchay</h1></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <h3 align="center">Class Assignment Form</h3>
+        <form action="admission.php" method="post">
+            <center>
+                <table border="0">
+                    <tr>
+                        <td>
+                            Student ID
+                        </td>
+                        <td>
+                            <input type="number" name="id" placeholder="Student ID">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="class">Class </label>
+                        </td>
+                        <td>
+                            <input type="text" name="class">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Nclass">New Class</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Nclass">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="resn">Reason for change</label>
+                        </td>
+                        <td>
+                            <input type="text" name="resn" placeholder="Enter text...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="appr">Approved By</label>
+                        </td>
+                        <td>
+                            <input type="text" name="appr" placeholder="Name">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+        
+                        </td>
+                        <td>
+                            <input name="input" action="admission.php" method="get" type="submit" value="Submit"/>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </body>
+</html>

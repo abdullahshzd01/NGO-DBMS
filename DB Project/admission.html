@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hamaray Bachchay Admission Form</title>
+    </head>
+
+    <body>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="../DB Project/homepage.html"><h1 align="center">Hamaray Bachchay</h1></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <h2>Student Admission Form</h2>
+        <form action="admission.php" method="post">
+            <center>
+                <table border="2">
+                    <!-- <tr>
+                        <td colspan="2">
+                            Hello visitor!!
+                        </td>
+                    </tr> -->
+                    <th colspan="2">
+                        Please provide us the requested Information
+                    </th>
+                    <tr>
+                        <td>
+                            <label for="name">Name </label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" placeholder="Enter Name Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Date Of Birth
+                        </td>
+                        <td>
+                            <input type="date" name="DOB">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender
+                        </td>
+                        <td>
+                            <input type="radio" name="gender" value="Male"> Male
+                            <input type="radio" name="gender" value="Female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Picture
+                        </td>
+                        <td>
+                            <img id="output" height="100" width="75"/>	
+                            <!-- <input type="image"> -->
+                            <input type="file"  accept="image/*" name="image" id="file"  onchange="loadFile(event)" style="display: block;">
+                        </td>
+                    </tr>
+                    <th colspan="2">
+                        Mother Information
+                    </th>
+                    <tr>
+                        <td>
+                            <label for="Mname">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Mname" placeholder="Enter Name Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Mcntct">Mother Contact</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Mcntct" placeholder="92xxxxxxxxxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Mcnic">CNIC</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Mcnic" placeholder="Enter CNIC Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Mmail">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="Mmail" placeholder="someone@example.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Madd">Address</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Madd" placeholder="Enter Address">
+                        </td>
+                    </tr>
+                    <th colspan="2">
+                        Father Information
+                    </th>
+                    <tr>
+                        <td>
+                            <label for="Fname">Father Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Fname" placeholder="Enter Name Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Fcntct">Father Contact</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Fcntct" placeholder="92xxxxxxxxxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Fcnic">CNIC</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Fcnic" placeholder="Enter CNIC Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Fmail">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" name="Fmail" placeholder="someone@example.com">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Fadd">Address</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Fadd" placeholder="Enter Address">
+                        </td>
+                    </tr>
+                    <th colspan="2">
+                        Guardian Information
+                    </th>
+                    <tr>
+                        <td>
+                            <label for="Gname">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Gname" placeholder="Enter Name Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Gcntct">Contact</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Gcntct" placeholder="92xxxxxxxxxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Gcnic">CNIC</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Gcnic" placeholder="Enter CNIC Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Gender
+                        </td>
+                        <td>
+                            <input type="radio" name="Ggender" value="Male"> Male
+                            <input type="radio" name="Ggender" value="Female"> Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+        
+                        </td>
+                        <td>
+                            <input name="input" action="admission.php" method="get" type="submit" value="Submit"/>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </body>
+</html>

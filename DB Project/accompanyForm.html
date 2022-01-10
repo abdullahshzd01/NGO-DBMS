@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Hamaray Bachchay</title>
+    </head>
+
+    <body>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">
+                        <a href="../DB Project/homepage.html"><h1 align="center">Hamaray Bachchay</h1></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        
+        <h3 align="center">Student ACCOMPANYING FORM</h3>
+        <form action="admission.php" method="post">
+            <center>
+                <table border="0">
+                    <!-- <tr>
+                        <td colspan="2">
+                            Hello visitor!!
+                        </td>
+                    </tr> -->
+                    <th colspan="2">
+                        Student Information
+                    </th>
+                    <tr>
+                        <td>
+                            ID
+                        </td>
+                        <td>
+                            <input type="number" name="id" placeholder="Student ID">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="name">Name </label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" placeholder="Enter Name Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="class">Class</label>
+                        </td>
+                        <td>
+                            <input type="text" name="class">
+                        </td>
+                    </tr>
+                    <th colspan="2">
+                        Accompanying Guardian Information
+                    </th>
+                    <tr>
+                        <td>
+                            <label for="Gname">Name</label>
+                        </td>
+                        <td>
+                            <input type="text" name="Gname" placeholder="Enter Name Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Gcntct">Contact</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Gcntct" placeholder="92xxxxxxxxxx">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Gcnic">CNIC</label>
+                        </td>
+                        <td>
+                            <input type="number" name="Gcnic" placeholder="Enter CNIC Here">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Pregnant
+                        </td>
+                        <td>
+                            <input type="radio" name="Gpreg" value="1"> Yes
+                            <input type="radio" name="Gpreg" value="0"> No
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="resn">Reason for Parents absence</label>
+                        </td>
+                        <td>
+                            <input type="text" name="resn" placeholder="Enter text...">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+        
+                        </td>
+                        <td>
+                            <input name="input" action="admission.php" method="get" type="submit" value="Submit"/>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </form>
+    </body>
+</html>
